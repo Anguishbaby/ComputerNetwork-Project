@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登陆页</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: white;
+            text-align:center;
+        }
+        span{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="main.py">
+        <h1>用户登陆</h1>
+        <span>用户名：</span>
+        <input type="text" name="name" placeholder="请输入用户名">
+        <br>
+        <span>密码：</span>
+        <input type="password" name="password" placeholder="请输入密码">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

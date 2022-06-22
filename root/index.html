@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首页</title>
+
+	<style type="text/css">
+        body{
+            background-color: black;
+        }
+        h1{
+            color: white;
+			text-align:center;
+        }
+	</style>
+</head>
+<body>
+	<div>
+		<h1>首页</h1>
+		<button id="btn">登陆</button>
+	</div>
+
+	<script type="text/javascript">
+		var login = document.getElementById('btn');
+		login.onclick = function() { 
+			window.location.href='login.html';
+		}
+	</script>
+</body>
+<html>
